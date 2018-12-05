@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1091016744491",
+    "firebase_url": "https://deemaapp-b8335.firebaseio.com",
+    "project_id": "deemaapp-b8335",
+    "storage_bucket": "deemaapp-b8335.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1091016744491:android:b9fecf6b525cefc0",
+        "android_client_info": {
+          "package_name": "com.example.user.deemaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1091016744491-i6ae84ebj1iku2i3bmhhkalkrpq6ek4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.deemaapp",
+            "certificate_hash": "013f43c9a5d380c46de43c04644418dbe5d2a253"
+          }
+        },
+        {
+          "client_id": "1091016744491-s2g2ka76k39c4mbh1sre7lt1sqtskvjc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrTodaEYtUvirdrwYU7zdusqq46Dc0qN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1091016744491-s2g2ka76k39c4mbh1sre7lt1sqtskvjc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".StartActivity"
+    tools:showIn="@layout/activity_start">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="205dp"
+        android:layout_height="54dp"
+        android:text="WelCome"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="314dp"
+        android:layout_height="78dp"
+        android:text="With study calender,you can tied your courses,classes and assignments "
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Widget.Toolbar.Title"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <Button
+        android:id="@+id/btnStart "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="have an account?LogIn"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="462dp" />
+</android.support.constraint.ConstraintLayout>
